@@ -1,0 +1,56 @@
+body {
+	background-color: #fcffe0;
+	margin: 0;
+}
+.container {
+	height: 95vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.dice-container {
+	display: flex;
+	width: auto;
+}
+h1 {
+	font-family: "Neucha", cursive;
+	font-weight: 800;
+	color: #75a47f;
+	font-size: 100px;
+	margin: 0;
+}
+p {
+	font-family: "Neucha", cursive;
+	color: #f5dad2;
+	font-weight: 900;
+	font-size: 50px;
+}
+.dice {
+	margin: 30px;
+	margin-top: 0px;
+}
+img {
+	height: 150px;
+}
+.footer {
+	height: 40px;
+	background-color: #f5dad2;
+}
+.footer > p {
+	font-size: 15px;
+	color: #fcffe0;
+	text-align: center;
+	padding-top: 10px;
+}
+@media (max-width: 500px) {
+	h1 {
+		font-size: 50px;
+	}
+	.dice > p {
+		font-size: 30px;
+	}
+	img {
+		height: 100px;
+	}
+}
